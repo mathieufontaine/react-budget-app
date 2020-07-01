@@ -5,6 +5,9 @@ import ExpenseTransaction from './ExpenseTransaction'
 const ExpenseList = () => {
     const { expenseTransactions } = useContext(GlobalContext);
 
+    console.log(expenseTransactions);
+
+
     return (
         <div className="transactions transactions-expense">
             <h2>Transaction History</h2>

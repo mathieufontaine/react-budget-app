@@ -38,7 +38,7 @@ const AddTransaction = () => {
 
     const handleExpenseSubmit = (e) => {
         e.preventDefault();
-        if(incomeText !== '' && incomeAmount !== 0){
+        if(expenseText !== '' && expenseAmount !== 0){
             const newExpense = {
                 id: uuidv4(),
                 text: expenseText,
